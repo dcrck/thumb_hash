@@ -8,3 +8,8 @@ rustflags = [
 rustflags = [
     "-C", "target-feature=-crt-static",
 ]
+
+[target.aarch-unknown-linux-musl]
+rustflags = [
+    "-C", "target-feature=-crt-static",
+]
